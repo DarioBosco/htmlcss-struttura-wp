@@ -4,3 +4,56 @@ padding: 0;
 box-sizing: border-box; 
 }
 
+/* INIZIO COMMON */
+
+body {
+   width: 80%;
+   margin: 0 auto;
+}
+
+header,
+footer{
+   margin: 20px auto;
+   padding: 10px
+}
+
+header {
+   background: #e579e6;
+}
+
+footer {
+   background: #8801FE;
+}
+
+.mainBox {
+   background: #E1D67A
+}
+
+.secondaryBox {
+   background: #0383FF;
+   padding-bottom: 20px
+}
+/* FINE COMMON */
+.secondaryHeader {
+   margin: 20px 0 20px 0;
+}
+
+.sidebar {
+   float: left;
+   width: calc((100% / 5) - 20px);
+   background: #ABCFE7
+}
+
+.center {
+   width: calc((100% / 5 * 3));
+   float: left;
+   background:#ABCFE7;
+   margin: 0 20px 0 20px;
+}
+
+.secondaryBox::after {
+content: ''; 
+display: table;
+clear: both;
+}
+
