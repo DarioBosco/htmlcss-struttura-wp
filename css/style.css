@@ -34,21 +34,24 @@ footer {
    padding-bottom: 20px
 }
 /* FINE COMMON */
+
 .secondaryHeader {
    margin: 20px 0 20px 0;
 }
 
 .sidebar {
-   float: left;
    width: calc((100% / 5) - 20px);
-   background: #ABCFE7
 }
 
 .center {
    width: calc((100% / 5 * 3));
-   float: left;
-   background:#ABCFE7;
    margin: 0 20px 0 20px;
+}
+
+.sidebar,
+.center {
+   background:#ABCFE7;
+   float: left;
 }
 
 .secondaryBox::after {
